@@ -21,9 +21,9 @@ Blocking List* option in Adblock preferences.
 
 ### Environment and arguments parsing
 
-Currently, marcro's arguments and environments are not parsing yet.
+Currently, marcro arguments and environments are not parsing yet.
 
-## Contributing
+## Contribute
 
 ### CSS
 
