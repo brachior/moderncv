@@ -1,0 +1,265 @@
+@import "fonts.css";
+
+
+.moderncv {
+    font-family: lmsans10-regular, sans-serif;
+    font-size: 10pt;
+}
+
+.moderncv a,
+.moderncv a:link,
+.moderncv a:visited,
+.moderncv a:active,
+.moderncv a:hover {
+    text-decoration: none;
+}
+
+.moderncv p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 9pt;
+    line-height: 17px;
+    margin: 0 0 0 24px;
+}
+
+.mcv-list > .mcv-list > .mcv-list-li:before {
+    content: '- ';
+}
+
+.mcv-list > .mcv-list > .mcv-list > .mcv-list-li:before {
+    content: '. ';
+}
+
+.mcv-list > .mcv-list > .mcv-list > .mcv-list-li {
+    margin-left: 40px;
+}
+
+.mcv-listdoubleitem > span:first-child {
+    float: right;
+    width: 50%;
+}
+
+.mcv-listdoubleitem > span:first-child > span {
+    display: list-item;
+    list-style-type: circle;
+    margin-left: 48px;
+}
+
+.mcv-listdoubleitem > span:nth-child(2) {
+    display: list-item;
+    list-style-type: circle;
+    margin: 2px 0 0 128px;
+}
+
+/* clearfix */
+.mcv-listdoubleitem:before,
+.mcv-listdoubleitem:after {
+    display: table;
+    content: "";
+}
+.mcv-listdoubleitem:after {
+    clear: both;
+}
+
+.mcv-listitem,
+.mcv-list > .mcv-list-li {
+    display: list-item;
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.mcv-listitem {
+    margin-left: 128px;
+}
+
+.mcv-listitem > span,
+.mcv-listdoubleitem > span:first-child > span > span,
+.mcv-listdoubleitem > span:last-child > span,
+.mcv-list > .mcv-list-li > span {
+    color: initial;
+}
+
+.mcv-list > .mcv-list > .mcv-list > .mcv-list-li,
+.mcv-list > .mcv-list > .mcv-list-li,
+.mcv-emptylist > .mcv-list-li {
+    list-style-type: none;
+}
+
+.mcv-code {
+    font-family: arial-ttf, sans-serif;
+    font-size: 10pt;
+}
+
+.mcv-tiny {
+    font-size: 5px;
+}
+
+.mcv-scriptsize {
+    font-size: 7px;
+}
+
+.mcv-footnotesize {
+    font-size: 11px;
+}
+
+.mcv-small {
+    font-size: 9px;
+}
+
+.mcv-normalsize {
+    font-size: 10px;
+}
+
+.mcv-large {
+    font-size: 12px;
+}
+
+.mcv-Large {
+    font-size: 14px;
+}
+
+.mcv-LARGE {
+    font-size: 17px;
+}
+
+.mcv-huge {
+    font-size: 21px;
+}
+
+.mcv-Huge {
+    font-size: 25px;
+}
+
+.mcv-emph {
+    font-family: lmsans10-oblique, sans-serif;
+    font-size: 10pt;
+}
+
+/* section */
+
+.mcv-section {
+    font-size: 20px;
+    display: block;
+    margin-left: 24px;
+}
+
+.mcv-section:before {
+    content: '\A__ ';
+    font-size: 50px;
+    vertical-align: 13px;
+    line-height: 0;
+}
+
+/* subsection */
+
+.mcv-subsection {
+    font-size: 16px;
+    display: block;
+    margin-left: 108px;
+}
+
+/* cventry */
+/* cvitem */
+/* cvline */
+/* cvcomputer */
+/* cvlanguage */
+
+.mcv-cvitem > span:first-child,
+.mcv-cventry > span:nth-child(1),
+.mcv-cvcomputer > span:first-child > span:first-child,
+.mcv-cvcomputer > span:last-child > span:first-child {
+    width: 85px;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 13px;
+    display: block;
+    margin-left: 8px;
+    float: left;
+}
+
+.mcv-cventry > span:nth-child(2),
+.mcv-cvcomputer > span:first-child > span:last-child {
+    margin: 0 0 0 108px;
+    font-size: 12px;
+    display: block;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(1) {
+    font-family: lmsans10-bold, sans-serif;
+    font-size: 10pt;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(2):not(:empty):before,
+.mcv-cventry > span:nth-child(2) > span:nth-child(3):not(:empty):before,
+.mcv-cventry > span:nth-child(2) > span:nth-child(4):not(:empty):before {
+    content: ', ';
+    margin-left: -5px;
+}
+
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(2) {
+    font-family: lmsans10-oblique, sans-serif;
+    font-size: 10pt;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(4):after {
+    content: '.';
+    margin-left: -4px;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(4):not(:empty):after {
+    content: '.';
+    margin-left: 0;
+}
+
+.mcv-cventry > span:nth-child(2) > span:nth-child(5) {
+    display: block;
+}
+
+/* cvline */
+
+.mcv-cvline > span:first-child,
+.mcv-cvlanguage > span:first-child {
+    width: 85px;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 13px;
+    display: block;
+    margin-left: 8px;
+}
+
+.mcv-cvline > span:last-child {
+    margin: -19px 0 0 108px;
+    font-size: 12px;
+    display: block;
+}
+
+/* cvcomputer */
+
+.mcv-cvcomputer > span:first-child {
+    float: right;
+    width: 50%;
+}
+
+.mcv-cvitem > span:last-child,
+.mcv-cvcomputer > span:last-child > span:last-child {
+    margin: 4px 0 0 108px;
+    font-size: 12px;
+    display: block;
+}
+
+/* cvlanguage */
+
+.mcv-cvlanguage > span:nth-child(2) {
+    margin: -19px 0 0 108px;
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+}
+
+.mcv-cvlanguage > span:nth-child(3) {
+    float: right;
+    margin-top: -19px;
+    font-family: lmsans10-oblique, sans-serif;
+    font-size: 10pt;
+}

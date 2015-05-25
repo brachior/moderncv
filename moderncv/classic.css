@@ -1,0 +1,74 @@
+@import "moderncv.css";
+
+/* maketitle */
+
+.mcv-head {
+    margin-bottom: 15px;
+    position: relative;
+    /*background-color: green;*/
+    display: block;
+}
+
+/* clearfix */
+.mcv-head:before,
+.mcv-head:after {
+    display: table;
+    content: "";
+}
+.mcv-head:after {
+    clear: both;
+}
+
+.mcv-head .mcv-name {
+    /*background-color: red;*/
+    padding: 0 0 0 20px;
+    font-size: 45px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mcv-head .mcv-info {
+    float: right;
+    /*background-color: blue;*/
+    vertical-align: bottom;
+}
+
+/* clearfix */
+.mcv-head .mcv-info:before,
+.mcv-head .mcv-info:after {
+    display: table;
+    content: "";
+}
+.mcv-head .mcv-info:after {
+    clear: both;
+}
+
+.mcv-head .mcv-info img {
+    border: 1px solid;
+    padding: 3px;
+    margin: 0 0 0 15px;
+    width: 64pt;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+}
+
+.mcv-head .mcv-info .mcv-contact {
+    float: left;
+    text-align: right;
+    font-size: 12px;
+}
+
+.mcv-head .mcv-info,
+.mcv-head .mcv-info a {
+    color: #8c8c8c;
+}
+
+.mcv-head .mcv-info p {
+    text-align: right;
+}
+
+.mcv-head .mcv-address > span {
+    display: block;
+}

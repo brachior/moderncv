@@ -1,0 +1,11 @@
+/* grey */
+
+.mcv-section,
+.mcv-listitem,
+.mcv-listdoubleitem > span:first-child,
+.mcv-listdoubleitem > span:last-child,
+.mcv-list > .mcv-list-li,
+.mcv-subsection,
+.mcv-head .mcv-info img {
+    color: #8c8c8c;
+}
